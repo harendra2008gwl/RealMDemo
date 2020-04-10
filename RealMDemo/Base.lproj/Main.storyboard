@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add RecordVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="AddRecordVC" id="BYZ-38-t0r" customClass="AddRecordVC" customModule="RealMDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Entry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qi-Jp-vfm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="uHG-uZ-pr2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xv4-Zd-K39">
+                                <rect key="frame" x="65" y="178" width="284" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="6ak-7Y-hXh"/>
+                                    <constraint firstAttribute="height" constant="34" id="zTY-6D-AQl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student standard" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VML-lV-rPT">
+                                <rect key="frame" x="65" y="222" width="284" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="XRN-xo-RDv"/>
+                                    <constraint firstAttribute="width" constant="284" id="tJ4-FC-Gck"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0cW-sp-8RF">
+                                <rect key="frame" x="65" y="266" width="284" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="7eJ-CA-S4s"/>
+                                    <constraint firstAttribute="height" constant="34" id="XYB-uD-uwu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter student address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CPF-tc-x8N">
+                                <rect key="frame" x="65" y="310" width="284" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="EjD-vr-pyz"/>
+                                    <constraint firstAttribute="height" constant="34" id="xsM-ZO-gKZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHr-4T-oAl">
+                                <rect key="frame" x="65" y="363" width="284" height="37"/>
+                                <color key="backgroundColor" red="0.16243147547118872" green="0.29425184142994498" blue="0.98780053853988647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="MVg-7V-wui"/>
+                                    <constraint firstAttribute="height" constant="37" id="dpg-4f-Fcf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Save record">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="SaveRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNt-Qm-bAX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3av-Kl-CwE">
+                                <rect key="frame" x="65" y="418" width="284" height="37"/>
+                                <color key="backgroundColor" red="0.16243147550000001" green="0.29425184139999999" blue="0.98780053850000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="KFe-eh-2g0"/>
+                                    <constraint firstAttribute="width" constant="284" id="sUW-pZ-KEO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Show student records">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jSo-i6-ot0" kind="show" id="uBL-TP-GZN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69137659653445482" green="0.79821689141946583" blue="0.98780053853988647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qHr-4T-oAl" firstAttribute="top" secondItem="CPF-tc-x8N" secondAttribute="bottom" constant="19" id="2T9-R4-lba"/>
+                            <constraint firstItem="3av-Kl-CwE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Tb-ld-k4k"/>
+                            <constraint firstItem="CPF-tc-x8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Dl-bl-3bo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Qi-Jp-vfm" secondAttribute="trailing" id="F1J-wS-w91"/>
+                            <constraint firstItem="4Qi-Jp-vfm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Gko-Hp-H4h"/>
+                            <constraint firstItem="xv4-Zd-K39" firstAttribute="top" secondItem="4Qi-Jp-vfm" secondAttribute="bottom" constant="68" id="JdU-pT-C5L"/>
+                            <constraint firstItem="qHr-4T-oAl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R1t-S1-VY2"/>
+                            <constraint firstItem="VML-lV-rPT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xdu-dv-uny"/>
+                            <constraint firstItem="VML-lV-rPT" firstAttribute="top" secondItem="xv4-Zd-K39" secondAttribute="bottom" constant="10" id="fnB-Fm-XWc"/>
+                            <constraint firstItem="0cW-sp-8RF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fpQ-Rq-aOd"/>
+                            <constraint firstItem="3av-Kl-CwE" firstAttribute="top" secondItem="qHr-4T-oAl" secondAttribute="bottom" constant="18" id="giW-MI-W9V"/>
+                            <constraint firstItem="4Qi-Jp-vfm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="go8-ug-TsM"/>
+                            <constraint firstItem="0cW-sp-8RF" firstAttribute="top" secondItem="VML-lV-rPT" secondAttribute="bottom" constant="10" id="inQ-yA-qqK"/>
+                            <constraint firstItem="CPF-tc-x8N" firstAttribute="top" secondItem="0cW-sp-8RF" secondAttribute="bottom" constant="10" id="qr8-Nc-rEl"/>
+                            <constraint firstItem="xv4-Zd-K39" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z5f-XO-Qql"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="TFAddress" destination="CPF-tc-x8N" id="1lN-hc-b5i"/>
+                        <outlet property="TFAge" destination="0cW-sp-8RF" id="Gty-Dh-eRx"/>
+                        <outlet property="TFName" destination="xv4-Zd-K39" id="yGi-oq-vFE"/>
+                        <outlet property="TFStandard" destination="VML-lV-rPT" id="LYJ-lt-akc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="127"/>
+        </scene>
+        <!--Show RecordsVC-->
+        <scene sceneID="TsV-p0-uxv">
+            <objects>
+                <viewController storyboardIdentifier="ShowRecordsVC" id="jSo-i6-ot0" customClass="ShowRecordsVC" customModule="RealMDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="miu-Oa-qaF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anz-gV-0Gg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="h60-dK-5jx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAr-By-dmE">
+                                <rect key="frame" x="65" y="751" width="284" height="37"/>
+                                <color key="backgroundColor" red="0.16243147550000001" green="0.29425184139999999" blue="0.98780053850000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="T4N-wJ-le3"/>
+                                    <constraint firstAttribute="height" constant="37" id="gZ9-6Q-OAd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <state key="normal" title="Add new records">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss:" destination="jSo-i6-ot0" eventType="touchUpInside" id="ckZ-Ml-pZF"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-v2-0VP">
+                                <rect key="frame" x="0.0" y="76" width="414" height="655"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69137659650000005" green="0.79821689139999996" blue="0.98780053850000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="X7z-2i-qJU" firstAttribute="bottom" secondItem="HAr-By-dmE" secondAttribute="bottom" constant="20" id="1dq-Mr-YBL"/>
+                            <constraint firstItem="qAy-v2-0VP" firstAttribute="trailing" secondItem="X7z-2i-qJU" secondAttribute="trailing" id="5S2-Iz-UWr"/>
+                            <constraint firstItem="HAr-By-dmE" firstAttribute="top" secondItem="qAy-v2-0VP" secondAttribute="bottom" constant="20" id="BMg-rq-K5g"/>
+                            <constraint firstItem="qAy-v2-0VP" firstAttribute="top" secondItem="Anz-gV-0Gg" secondAttribute="bottom" constant="10" id="TGL-4S-tfr"/>
+                            <constraint firstItem="X7z-2i-qJU" firstAttribute="trailing" secondItem="Anz-gV-0Gg" secondAttribute="trailing" id="eTF-RW-I05"/>
+                            <constraint firstItem="HAr-By-dmE" firstAttribute="centerX" secondItem="miu-Oa-qaF" secondAttribute="centerX" id="ftl-zF-ZMx"/>
+                            <constraint firstItem="Anz-gV-0Gg" firstAttribute="leading" secondItem="X7z-2i-qJU" secondAttribute="leading" id="sRs-Ac-sUD"/>
+                            <constraint firstItem="Anz-gV-0Gg" firstAttribute="top" secondItem="X7z-2i-qJU" secondAttribute="top" id="tY5-C2-AMO"/>
+                            <constraint firstItem="qAy-v2-0VP" firstAttribute="leading" secondItem="X7z-2i-qJU" secondAttribute="leading" id="toZ-RO-9h1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="X7z-2i-qJU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OMg-8A-7Iq"/>
+                    <connections>
+                        <outlet property="tblRecords" destination="qAy-v2-0VP" id="5qG-Xm-yke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33X-vx-xAx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911.59420289855075" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>

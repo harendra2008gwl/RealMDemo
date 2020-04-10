@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StudentCell" rowHeight="141" id="KGk-i7-Jjw" customClass="StudentCell" customModule="RealMDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5d-98-5Lf">
+                        <rect key="frame" x="10" y="10" width="300" height="23"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwv-VH-UA4">
+                        <rect key="frame" x="10" y="43" width="300" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrL-BZ-blH">
+                        <rect key="frame" x="10" y="75.5" width="300" height="23"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4V-Im-U5n">
+                        <rect key="frame" x="10" y="108.5" width="300" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="m5d-98-5Lf" secondAttribute="trailing" constant="10" id="0X2-16-5h4"/>
+                    <constraint firstAttribute="trailing" secondItem="B4V-Im-U5n" secondAttribute="trailing" constant="10" id="3Gv-AK-Gqc"/>
+                    <constraint firstAttribute="bottom" secondItem="B4V-Im-U5n" secondAttribute="bottom" constant="10" id="48b-mT-ir8"/>
+                    <constraint firstItem="B4V-Im-U5n" firstAttribute="height" secondItem="m5d-98-5Lf" secondAttribute="height" id="BO9-4G-aLu"/>
+                    <constraint firstItem="FrL-BZ-blH" firstAttribute="top" secondItem="Bwv-VH-UA4" secondAttribute="bottom" constant="10" id="EXb-Q7-hsz"/>
+                    <constraint firstItem="FrL-BZ-blH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FV9-oJ-ojT"/>
+                    <constraint firstAttribute="trailing" secondItem="Bwv-VH-UA4" secondAttribute="trailing" constant="10" id="GDA-bk-9dn"/>
+                    <constraint firstItem="FrL-BZ-blH" firstAttribute="height" secondItem="m5d-98-5Lf" secondAttribute="height" id="HbL-9I-uE8"/>
+                    <constraint firstItem="Bwv-VH-UA4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KYB-hR-p6Z"/>
+                    <constraint firstAttribute="trailing" secondItem="FrL-BZ-blH" secondAttribute="trailing" constant="10" id="ZfB-nX-PRP"/>
+                    <constraint firstItem="Bwv-VH-UA4" firstAttribute="top" secondItem="m5d-98-5Lf" secondAttribute="bottom" constant="10" id="a9M-Lr-Abl"/>
+                    <constraint firstItem="B4V-Im-U5n" firstAttribute="width" secondItem="m5d-98-5Lf" secondAttribute="width" id="bhP-fg-cjc"/>
+                    <constraint firstItem="m5d-98-5Lf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="bnb-oN-cX0"/>
+                    <constraint firstItem="B4V-Im-U5n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gZ7-vU-Exj"/>
+                    <constraint firstItem="Bwv-VH-UA4" firstAttribute="height" secondItem="m5d-98-5Lf" secondAttribute="height" id="hkV-PW-hrS"/>
+                    <constraint firstItem="m5d-98-5Lf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="qXi-1b-arg"/>
+                    <constraint firstItem="Bwv-VH-UA4" firstAttribute="width" secondItem="m5d-98-5Lf" secondAttribute="width" id="s46-Ix-gtf"/>
+                    <constraint firstItem="FrL-BZ-blH" firstAttribute="width" secondItem="m5d-98-5Lf" secondAttribute="width" id="siw-TA-kKo"/>
+                    <constraint firstItem="B4V-Im-U5n" firstAttribute="top" secondItem="FrL-BZ-blH" secondAttribute="bottom" constant="10" id="tXK-Cs-Q6E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="TFAddress" destination="B4V-Im-U5n" id="vLE-fF-Vyh"/>
+                <outlet property="TFAge" destination="FrL-BZ-blH" id="o1a-JI-O7t"/>
+                <outlet property="TFName" destination="m5d-98-5Lf" id="iZe-7O-YB0"/>
+                <outlet property="TFStandard" destination="Bwv-VH-UA4" id="nqr-bX-5yw"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="174.44196428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
